@@ -2,6 +2,8 @@
 //api
 const url ='https://vue3-course-api.hexschool.io/';
 const path ="shang";
+//引入vue createApp
+import { createApp } from 'https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.9/vue.esm-browser.js';
 
 const app = Vue.createApp({
   data(){
