@@ -5,7 +5,7 @@ const path ="shang";
 //引入vue createApp
 import { createApp } from 'https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.9/vue.esm-browser.js';
 
-const app = Vue.createApp({
+createApp({
   data(){
       return{
         username:"",
