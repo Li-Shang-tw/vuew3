@@ -12,7 +12,7 @@ import { createApp } from 'https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.9/vue.
 let delProductModal = null;
           
 
-const app =Vue.createApp({
+createApp({
     data(){
       return{
          products:[],         
@@ -145,7 +145,5 @@ const app =Vue.createApp({
 delProductModal = new bootstrap.Modal(document.querySelector('#delProductModal'));
 
     }
-  })
-
-  app.mount('#app');
+  }).mount('#app');
 
